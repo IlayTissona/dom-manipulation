@@ -13,4 +13,7 @@ function run() {
 	line.append(deleteButton);
 	deleteButton.innerText = "Delete";
 	span.innerText = value;
+	deleteButton.onclick = function () {
+		list.removeChild(line);
+	};
 }
