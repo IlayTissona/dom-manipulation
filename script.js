@@ -15,5 +15,7 @@ function run() {
 	span.innerText = value;
 	deleteButton.onclick = function () {
 		list.removeChild(line);
+		input.focus();
 	};
+	input.focus();
 }
